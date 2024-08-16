@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background-color: #056679;
+    font-family: sans-serif;
+}
+
+.todo-container{
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.input-section{
+    background-color: #055565;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 7px 6px #0000003b;
+}
+
+h1{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #3a95a3;
+}
+.input-section input{
+    border-radius: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #055565;
+    outline: none;
+    color: #08869e;
+}
+
+input::placeholder{
+    color: #08869e;
+}
+
+
+ul{
+    text-align: left;
+    padding: 0;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: #055565;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #08869e;
+    box-shadow: 0 4px 6px black;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul li .text-content {
+    flex: 1; 
+    word-break: break-word; 
+    overflow-wrap: break-word; 
+    max-width: 260px;
+}
+
+ul li .icons {
+    display: flex;
+    gap: 10px; 
+    align-items: center;
+    margin-left: 10px; 
+}
+
+
+
+ul li i {
+    cursor: pointer;
+    font-size: 18px;
+    color: #08869e;
+}
+
+
+.edit-section {
+    background-color: #055565;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 7px 6px #0000003b;
+    margin-top: 10px;
+    color: #08869e;
+}
+
+.edit-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-section input {
+    border-radius: 5px;
+    border: 1px solid #106879;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #055565;
+    outline: none;
+    color: #08869e;
+    margin-bottom: 10px;
+}
+
+.edit-section button {
+    background-color:rgb(25, 112, 129);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #83bdc9;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.edit-section button:hover {
+    background-color: #126170 ;
+}
+
+.edit-section button:last-child {
+    background-color: #9eacaf;
+    color: #0c4f5c;
+    margin-right: 0;
+}
+
+.edit-section button:last-child:hover {
+    background-color: #709da7;
+}
